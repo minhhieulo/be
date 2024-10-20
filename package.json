@@ -1,24 +1,23 @@
 {
   "name": "be",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node server.js"
   },
+  "author": "MinhHieu",
+  "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/minhhieulo/backend.git"
+    "url": "git+https://github.com/minhhieulo/nodejs_be.git"
   },
-  "author": "Minhhieu",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/minhhieulo/backend/issues"
+    "url": "https://github.com/minhhieulo/nodejs_be/issues"
   },
-  "homepage": "https://github.com/minhhieulo/backend#readme",
+  "homepage": "https://github.com/minhhieulo/nodejs_be#readme",
+  "description": "",
   "dependencies": {
-    "express": "^4.21.1",
-    "nodemon": "^3.1.7"
+    "express": "4.17.1"
   }
 }
